@@ -1,0 +1,98 @@
+@import "react-toastify/dist/ReactToastify.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #fdfdfd;
+}
+
+.button-burguer {
+  transition: all 0.3s ease-in-out;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+
+.button-burguer:hover {
+  color: #000 !important;
+}
+
+.text-before::before {
+  content: "...Customizable";
+  font-size: 15px;
+  font-weight: 700;
+  color: #24c0c7;
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  left: 0;
+  transform: translateY(-50%);
+  padding-inline: 1.5rem;
+  padding-block: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-button-next {
+  background: rgba(155, 155, 155, 0.5);
+  transition: all 0.3s ease-in-out;
+  color: #fff !important;
+  padding-inline: 1.5rem;
+  padding-block: 1.5rem;
+}
+
+.swiper-button-next::after {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-button-next:hover {
+  background: #ffffff;
+}
+
+.swiper-button-next:hover::after {
+  color: #000 !important;
+}
+
+.swiper-button-prev {
+  background: rgba(155, 155, 155, 0.5);
+  transition: all 0.3s ease-in-out;
+  color: #fff !important;
+  padding-inline: 1.5rem;
+  padding-block: 1.5rem;
+}
+
+.swiper-button-prev::after {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-button-prev:hover {
+  background: #ffffff;
+}
+
+.swiper-button-prev:hover::after {
+  color: #000 !important;
+}
+
+button {
+  position: relative;
+}
+
+.underline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: #070f26;
+  transition: width 0.3s ease-out;
+}
+
+.growing-line::after {
+  content: "";
+  display: block;
+  width: 100%;
+}

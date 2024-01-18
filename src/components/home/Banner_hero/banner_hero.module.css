@@ -1,0 +1,16 @@
+.bg_headerAbout {
+  position: absolute;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.swiper_slide_custom {
+  position: relative !important;
+  width: 100% !important;
+}
+
